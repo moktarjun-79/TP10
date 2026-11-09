@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Calculateur de prix</title>
+
+    <!-- Chargement du fichier CSS -->
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Calculateur de prix</h1>
+
+      <p>Entrez le prix et la quantité pour calculer le total.</p>
+
+      <label for="prix">Prix unitaire (DT) :</label>
+      <input type="number" id="prix" min="0" step="any" />
+
+      <label for="quantite">Quantité :</label>
+
+      <input type="number" id="quantite" min="1" step="1" />
+
+      <button id="btnValider">Calculer</button>
+
+      <p id="resultat">Le résultat apparaîtra ici.</p>
+    </div>
+
+    <!-- Chargement du fichier JavaScript -->
+    <script src="script.js" ></script>
+  </body>
+</html>
